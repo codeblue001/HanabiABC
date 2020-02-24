@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:id="@+id/question_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:src="@drawable/tomato"
+            android:contentDescription="image of a tomato"/>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="24dp"
+        android:textSize="48sp"
+        android:text="@string/letter_t"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:background="#33CCCC"
+            android:textColor="#fff"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_1_button" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:background="#33CCCC"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_2_button" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cheat_button"
+        android:background="#9900CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHEAT"
+        android:visibility="gone"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        android:drawableRight="@drawable/arrow_right"/>
+
+</LinearLayout>

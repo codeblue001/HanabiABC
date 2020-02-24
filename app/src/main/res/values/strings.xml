@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Hanabi ABC</string>
+    <string name="title">HANABI</string>
+    <string name="success">Correct!</string>
+    <string name="failure">Incorrect!</string>
+
+<!--    Buttons-->
+    <string name="call_to_action">GET STARTED</string>
+    <string name="option_1_button">T</string>
+    <string name="option_2_button">N</string>
+    <string name="next_button">NEXT</string>
+
+    <!--    Quiz Questions-->
+    <string name="letter_t">_OMATO</string>
+    <string name="letter_u">_NICORN </string>
+    <string name="letter_w">_AGON </string>
+    <string name="letter_x">_RAY </string>
+    <string name="letter_a">_IRPLANE </string>
+    <string name="letter_s">_UN</string>
+    <string name="letter_y">_OYO</string>
+    <string name="letter_z">_IPPER</string>
+    <string name="letter_r">_OSE </string>
+    <string name="letter_q">_UEEN </string>
+    <string name="letter_p">_IG </string>
+    <string name="letter_o">_LIVE </string>
+    <string name="letter_n">_EST </string>
+    <string name="letter_m">_OUNTAIN </string>
+    <string name="letter_l">_IME </string>
+    <string name="letter_k">OALA </string>
+    <string name="letter_j">_IUCE </string>
+    <string name="letter_i">_NSECT </string>
+    <string name="letter_h">_AMBURGER </string>
+    <string name="letter_g">_UITAR </string>
+    <string name="letter_f">_RUIT</string>
+    <string name="letter_e">_LEPHANT</string>
+    <string name="letter_c">_AR</string>
+    <string name="letter_b">_AR</string>
+    <string name="letter_d">_INOSAUR</string>
+    <string name="letter_v">_EGETABLES</string>
+
+    <!--    New Activity-->
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="judgement_toast">Cheating is wrong</string>
+
+</resources>
